@@ -1,20 +1,21 @@
-# Remove-Focus-rectange
-Remove the focus rectangle from the desktop
+# Focus rectangle remover
 
-Custom .dll file to remove the focus rectangle (as seen here: shorturl.at/yJKZ6) from the windows desktop.
+.dll to remove focus rectangle (as seen here: shorturl.at/yJKZ6) from windows desktops
 
 
-Install instructions:
+## Installation
 
+```python
 Copy .dll file to "C:\Windows\SysWOW64"
 Open Administrator CMD or Terminal
 Navigate to the required folder using the command 'cd C:\Windows\SysWOW64'
 Run the command 'regsvr32 RemoveFR.dll'
 Restart computer
-
-To uninstall:
-
+```
+## Uninstall
+```python
 Open Administrator CMD or Terminal
 Navigate to the required folder using the command 'cd C:\Windows\SysWOW64'
-Run the command 'regsvr32 /u RemoveFR.dll
-Restart computer.
+Run the command 'regsvr32 /u RemoveFR.dll'
+Restart computer
+```
